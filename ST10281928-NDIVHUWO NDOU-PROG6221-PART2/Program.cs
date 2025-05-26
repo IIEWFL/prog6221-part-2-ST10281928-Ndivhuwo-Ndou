@@ -1,18 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 class Program
 {
-        static void Main(string[] args)
+    static void Main(string[] args)
+    {
+        General.Display_Art();
+        General.Play_Audio();
+        General.Greeting();
+        try
         {
-           General.Greeting();
-            Console.WriteLine($"Your name is: {General.userName}");
-            Responses.profile.Add(General.userName);
-            Responses.storeFavourites("I am interested in password safety");
-            Responses.sentimentResponse("I am worried about my password safety");
-            Responses.sentimentResponse("I am worried about my password safety");
+            Responses.Basic_Response();
+        }
+        catch (Exception)
+        {
+            Console.WriteLine("Something went wrong with your input.");
+        }
     }
+        
+          
 }
