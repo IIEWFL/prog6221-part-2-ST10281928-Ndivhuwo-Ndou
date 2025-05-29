@@ -1,6 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/4cldIbLm)
 
-How to use and navigate the cyber security chatbot
+# How to use and navigate the cyber security chatbot
 
     ----PreRequisites----
         *Download and installing Visual Studio Community 2022
@@ -10,7 +10,7 @@ How to use and navigate the cyber security chatbot
         *After downloading and installing Visual Studio Community 2022,go to the Visual Studio Installer 
           and install the following workload: .Net Desktop Development.
 
-    ----Downloading and opening the folder----
+   ## ----Downloading and opening the folder----
 
         1.Download the folder "ST10281928-NDIVHUWONDOU-PROG6221-PART1" from the GitHub repository. This file contains the application file.
         2.Navigate to where the file is stored after it has been downloaded.
